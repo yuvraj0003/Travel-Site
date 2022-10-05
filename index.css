@@ -1,0 +1,173 @@
+/*tags*/
+
+body{
+    margin: 0px;
+}
+
+p{
+    letter-spacing: 5px;
+    
+}
+h1{
+    font-family: 'DM Serif Display', serif;
+
+}
+/* title section*/
+
+#title{
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: orange;
+    max-width: 100%;
+}
+
+
+/* navbar */
+.navbar-brand{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 50px;
+}
+
+.navbar{
+    border-radius: 10px;
+    padding: 0% 3% 0% 3%;
+    text-align: center;
+    
+}
+
+
+/* content */
+
+.title-container{
+    padding: 3%;
+}
+
+
+
+
+/* column - 1*/
+
+
+.title-column-1 h1{
+    font-size: 70px;
+}
+
+.title-column-1 p{
+    margin-left: 2%;
+}
+
+.title-column-1 button{
+
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+
+/* column 2 */
+
+.title-column-2{
+    text-align: center;
+}
+
+
+/* gallary section */
+
+
+#gallary{
+    background-color: #FFCB42;
+    text-align: center;
+    padding: 6%;
+}
+
+
+.gallary-columns{
+    width: 100%;
+}
+
+.gallary-columns h1{
+    text-transform: capitalize;
+}
+
+
+
+.gallary-text{
+    margin-top: 30px;
+}
+
+.gallary-images{
+    width: 100%;
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: orange;
+    padding: 5%;
+    text-align: center;
+}
+
+
+#testimonials p{
+    display: inline-block;
+    margin-left: 2%;
+
+}
+.testimonial-content{
+    padding: 0% 20% 0% 20%;
+
+}
+
+.test-img{
+    width: 15%;
+    border-radius: 50%;
+}
+
+/* about us*/
+
+#about-us{
+    text-align: center;
+    padding: 5%;
+    background-color: #FFCB42;
+}
+
+.about-column-2{
+    text-align: center;
+    width: 60%;
+    margin-top: 40px;
+
+}
+
+.about-img{
+    border-radius: 50%; 
+    width: 20%;
+}
+
+/* footer */
+
+#footer{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 5% 0% 5% 0%;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 991px){
+    /* tags */
+    body{
+        text-align: center;
+    }
+
+    /* about us */
+    .about-column-2{
+        width: 90%;
+    }
+
+    .about-img{
+        border-radius: 50%; 
+        width: 50%;
+    }
+}
